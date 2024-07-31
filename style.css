@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151515;
+    height: 20vh;
+    overflow-x: hidden;
+}
+.navbar h3{
+    color: #f1f1f1f1;
+    font-size: xx-large;
+    font: 800;
+    position: relative;
+    top: 2px;
+    left: 12%;
+    font-family: 'Teko', sans-serif;
+}
+
+.logo-top{
+    display: flex;
+    /* background-color: #151515; */
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    top: -40px;
+    
+}
+#image-ahmed img{
+   height: 100px;
+   width: auto;
+   position: relative;
+   left: 600px;
+}
+.logo-top img{
+    position: relative;
+    top: 10px;
+    left: 84.5%;     
+    margin-left: 12px;
+    height: 30px;
+    width: auto;
+}
+.logo-top #img1{
+    position: relative;
+    top: 8px;
+    left: 84%;     
+    margin-left: 12px;
+    height: 30px;
+    width: auto;
+}
+.headings h1{
+  color: #f1f1f1f1;
+  height: 100px;
+  width: auto;
+  font-family: 'Noto Serif', serif;
+  font-size: 60px;
+  height:150px;
+  width: 400px;
+  font: 900;
+  position: relative;
+  top: -70px;
+  left: 100px;
+ 
+}
+.headings h1 span {
+    background: linear-gradient(to right, rgba(238,174,202,1), rgba(148,187,233,1));
+    -webkit-background-clip: text;
+    color: transparent; 
+    text-decoration: underline;
+}
+
+.headings h4{
+    color: #d1d1d1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+   
+}
+.headings h3 a{
+    color: #f1f1f1f1;
+    position: absolute;
+    top: 150px;
+    left: -55px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+}
+.headings h3 a:hover{
+  color: #ffb703;
+}
+.image-2 img{
+    position: relative;
+    right: 30px;
+    
+}
+section picture img{
+    height: 600px;
+    width: auto;
+    position: relative;
+    left: 1000px;
+    top: -400px;
+    z-index: -1;
+    border-radius: 12px ;
+}
+#hr {
+    color: #ffb703;
+    position: relative;
+    top: 200px;
+    width: 1000px; 
+    left: 80px; 
+}
+.sec-page{
+    display: flex;
+    z-index: -2;
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    left: 50px;
+    /* top: 900px; */
+    margin-left: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #f1f1f1f1;
+  
+}
+#library{
+    display: flex;
+    position: relative;
+    /* position: absolute;
+    top: 850px; */
+    margin-bottom: 10px;
+    left: 50px;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #f1f1f1f1;
+}
+#react{
+    margin-left: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#library h5{
+    margin-left: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+.sec-page h5{
+    margin-left: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#pro{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    font-size: 25px;
+   
+}
+#html{
+    margin: 50px 50px 50px 50px;
+}
+#css{
+    margin: 50px 50px 50px 50px;
+}
+#js{
+    margin: 50px 50px 50px 50px;
+}
+#access{
+    margin: 50px 50px 50px 50px;
+}
+#react{
+    margin: 50px 50px 4px 50px;
+}
+#Sass{
+    margin: 50px 50px 4px 50px;
+}
+#html, #css, #js, #access, #react, #Sass {
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#html:hover, #css:hover, #js:hover, #access:hover, #react:hover, #Sass:hover {
+    color: #ffb703;
+}
+
+#image-3 img{
+    position: relative;
+    right: -150px;
+    top: 30px;
+}
+#projects h1{
+    font-family: 'Noto Sans', sans-serif;
+    color: #d1d1d1;
+    position: relative;
+    top: 600px;
+    font-size: 50px;
+    font: 200;
+    margin-left: 230px;
+}
+
+#projects-img1 img{
+    height: 320px;
+    width: auto;
+    position: relative;
+    top: 550px;
+    left: 130px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: inline-flex;
+}
+#projects-img2 img {
+    height: 320px;
+    width: auto;
+    position: relative;
+    left: 130px;
+    display: inline-flex;
+    margin-left: 100px;
+    top: 650px;
+    margin-bottom: 20px;
+}
+#text-image{
+    display: flex;
+    color: #d1d1d1;
+}
+#text1{
+    position: relative;
+    left: 230px;
+    top: -200px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+}
+#text2{
+    position: relative;
+    left: 560px;
+    top: -200px;
+    font-family: 'Lora', serif;
+    font-size: 11px;
+}
+#text3{
+    position: relative;
+    left: -230px;
+    top: 220px;
+    font-family: 'Lora', serif;
+    font-size: 11px;
+}
+#text4{
+    position: relative;
+    left: 180px;
+    top: 215px;
+    font-family: 'Lora', serif;
+    font-size: 11px;
+}
+#text5{
+    position: relative;
+    left: -650px;
+    top: 640px;
+    font-family: 'Lora', serif;
+    font-size: 11px;
+}
+#text6{
+    position: relative;
+    left: -280px;
+    top: 640px;
+    font-family: 'Lora', serif;
+    font-size: 11px;
+}
+#contact-full{
+    background-color: #242424;
+    height: 400px;
+    width: 1350px;
+    position: absolute;
+    top: 3000px;
+}
+#contact-full h1 a {
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+color: #d1d1d1;
+height: 100px;
+width: auto;
+font-family: 'Kanit', sans-serif;
+font-size: 80px;
+position: relative;
+left: 200px;
+}
+#contact-full h1 a:hover {
+    color: #ffb703;
+}
+#contact-full h5{
+   height: 100px;
+   width: 300px;
+   color: #d1d1d1;
+   position: relative;
+   left: 210px;
+   top: 20px;
+   font-family: 'Roboto Mono', monospace;
+
+}
+#contact-full img{
+    position: relative;
+    left: -100px;
+    top: -10px;
+}
+
